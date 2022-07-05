@@ -57,13 +57,15 @@ hr {
     content: '✅';
   }
 
-  li {    
-    margin-left: 1.15em;
+  li.done span{
+    text-decoration: line-through;
+  }
 
-    .content {      
-      display: flex;
-      justify-content: space-between;
-    }
+  li {    
+    // margin-left: 1.15em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 
     button {   
       padding: 3px 7px;

@@ -18,9 +18,9 @@ hr { margin: 2em 0 1em; }
 
 #todoList li.done::marker { content: '✅'; }
 
-#todoList li { margin-left: 1.15em; }
+#todoList li.done span { text-decoration: line-through; }
 
-#todoList li .content { display: flex; justify-content: space-between; }
+#todoList li { display: flex; align-items: center; justify-content: space-between; }
 
 #todoList li button { padding: 3px 7px; font-size: 0.8em; background-color: #dc143e; }
 
